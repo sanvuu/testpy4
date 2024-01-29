@@ -1,7 +1,7 @@
 name: Python application
 
 env:
-  DOCKER_USERNAME: sanvuu
+  DOCKER_USERNAME: sanvu
   DOCKER_PASSWORD: ${{ secrets.PASS1 }}
   IMAGE_TAG: ${{ github.sha }}
 
